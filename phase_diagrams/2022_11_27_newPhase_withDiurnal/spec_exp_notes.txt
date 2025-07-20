@@ -1,0 +1,12 @@
+#notes about this particular trial/set of experiments 
+
+
+Running data to reproduce the first two columns of termites Fig 3, but with the addition of "phases = 2*pi*[0, .25, .5, 1]. Fingers crossed...
+
+Need to run another round of experiments to see how changing phi-c affects things. Will do that after these two complete running. 
+
+
+Ran this command:
+To ssh: 
+"rsync -avze ssh aditya@10.243.53.250:/home3/aditya/TERMITES/new_2022_phase_diagrams"
+nohup matlab -nojvm -nodisplay < TermiteMoundSimulation.m > output.txt &
